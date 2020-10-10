@@ -256,11 +256,11 @@
     $("<h1>",{text:"You can use Token to troll of Discord."}).appendTo(h);
     h.append("Click here<br>");
     $("<a>",{
-        text: "how to get token<br>",
+        text: "how to get token",
         href: "https://shunshun94.github.io/shared/sample/discordAccountToken",
         target: "_blank"
     }).appendTo(h);
-    h.append("for more information<br><br>");
+    h.append("<br>for more information");
     function addTextarea(placeholder){
         function shape(){
             var text = t.val();
