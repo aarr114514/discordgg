@@ -260,6 +260,7 @@
         href: "https://shunshun94.github.io/shared/sample/discordAccountToken",
         target: "_blank"
     }).appendTo(h);
+    h.append("for more information<br><br>");
     h.append("for more information.<br><br>");
     function addTextarea(placeholder){
         function shape(){
