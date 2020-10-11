@@ -254,13 +254,13 @@
     }));
     $("<div>",{text:"Last Update：2020/08/12 13:06"}).appendTo(h);
     $("<h1>",{text:"You can use Token to troll of Discord."}).appendTo(h);
-    h.append("Click here");
+    h.append("For more information on how to get a Token, ");
     $("<a>",{
-        text: "how to get token",
+        text: "Click here",
         href: "https://shunshun94.github.io/shared/sample/discordAccountToken",
         target: "_blank"
     }).appendTo(h);
-    h.append("for more information");
+
     function addTextarea(placeholder){
         function shape(){
             var text = t.val();
